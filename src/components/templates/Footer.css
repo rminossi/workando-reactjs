@@ -1,0 +1,46 @@
+footer{
+    height: 340px;
+    background-color: #604f68;
+}
+
+footer .brand{
+    padding: 100px 0 0 85px;
+    color: #fff;
+}
+
+footer h6{
+    padding: 106px 0 0 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer ul{
+    list-style: none;
+    color: #fff;
+    margin: 10px 0;
+    padding-left: 50px;
+    font-weight: 500; 
+}
+
+footer ul li{
+    margin: 10px 0;
+}
+
+.chamada-app-botoes{
+    padding: 45px 100px;
+}
+
+.redes button{
+    margin: 106px 8px;
+    background-color: #6b617d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.redes .fab{
+    display: block
+}   

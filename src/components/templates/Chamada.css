@@ -1,0 +1,32 @@
+.chamada-app{
+    margin-top: 45px;
+    height: 173px;
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+}
+
+.chamada{
+    padding: 65px 0 0 80px;
+    font-size: 23px;
+    color: #a3a3a3;
+}
+
+.chamada-app-botoes{
+    padding: 45px 100px;
+}
+
+.chamada-app-botoes button{
+    margin-left: 20px;
+    background-color: #91bdc9;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 60px;
+}
+
+.chamada-app-botoes .fab{
+    display: block
+}    
