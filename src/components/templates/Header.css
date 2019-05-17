@@ -5,6 +5,18 @@
     padding: 0px 0px 0 70px;
 }
 
+.dropdown-toggle::after {
+    display:none;
+}
+
+button{
+    border: none;
+    background-color: #fff;
+    padding: 0;
+    display: inline;
+    margin: 0;
+}
+
 .brand{
     color: #604f68 !important;
     font-weight: 900 bold !important;
@@ -45,13 +57,11 @@ span{
 
 .fa-bell{
     color: #91bdc9;
-    margin-top: 10px;
     font-size: 1.2em;
 }
 
 .fa-bars{
     color: #91bdc9;
-    margin: 0 0 0 20px;
     font-size: 1.2em;
 }
 
@@ -59,7 +69,7 @@ span{
    width: 45px;
    height: 45px;
    border-radius: 50%;
-   margin: 0 15px;
+   margin: 0 10px 10px 15px;
 }
 
 .navbar-mobile{

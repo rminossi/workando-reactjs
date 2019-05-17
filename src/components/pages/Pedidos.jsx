@@ -45,7 +45,7 @@ class Candidatos extends Component{
       
       
       <div className='row propostas'>
-        <div className="card-deck col-12 px-0 mx-0">
+        <div className="card-deck col-12 px-0 mx-0 my-3">
           <div className="card proposta justify-content-center align-items-center">
             <img className='img-candidato' src={require('../../../public/imgs/wagner.jpg')} alt=""/>
             <h3 className="nome-candidato">Wagner Mens</h3>

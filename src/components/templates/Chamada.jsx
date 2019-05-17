@@ -8,7 +8,7 @@ class Chamada extends Component{
         <div className='col-8 chamada-app-texto pl-0 pt-lg-5 pt-4'>
             <p className='chamada'>Baixe o aplicativo para dispositivos móveis</p>
         </div>
-        <div className='col-4 pl-0 pt-lg-5 pt-3 chamada-app-botoes'>
+        <div className='col-3 px-0 pt-lg-5 pt-3 ml-auto chamada-app-botoes'>
             <button><i class="fab fa-android"></i></button>
             <button><i class="fab fa-apple"></i></button>
         </div>
