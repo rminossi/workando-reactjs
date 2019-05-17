@@ -99,7 +99,7 @@ class Pedidos extends Component {
 
         return(
         <div className="meus-pedidos m-lg-5 pl-lg-4 mx-5 pl-0">
-          <p className='rota'>meus pedidos</p>
+          <p className='rota pl-2 pt-2 pl-md-0'>Meus pedidos</p>
           <h3 className='titulo'>Meus pedidos</h3>
           <p className='subtitulo d-md-block'>Peça orçamentos grátis, e contrate melhor.</p>
           <div className="row filtro">
