@@ -86,7 +86,7 @@ select {
     background: #f1f1f1;
     z-index: 1;
     text-align: center;
-    width: 10%;
+    width: 6%;
     pointer-events: none;
     box-sizing: border-box;   
 }
