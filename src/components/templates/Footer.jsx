@@ -6,9 +6,9 @@ class Footer extends Component{
     return(
         <div>
             <footer>
-              <div className="row">
-                <div className="col-lg-3 col-12 text-center">
-                  <h4 className="brand pl-0 pt-4 pt-lg-5 mt-lg-5 text-ippercase" >Workando</h4>
+              <div className="row mx-0">
+                <div className="col-lg-3 col-12 px-0 text-center">
+                  <h4 className="brand px-0 pt-4 pt-lg-5 mt-lg-5 text-ippercase" >Workando</h4>
                 </div>                                                                              
                 <div className="col-3">
                   <h6 className="pt-3 pt-lg-5 mt-lg-5">Empresa</h6>
