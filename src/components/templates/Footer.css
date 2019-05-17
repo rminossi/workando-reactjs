@@ -5,7 +5,8 @@ footer{
 
 footer .brand{
     padding: 100px 0 0 85px;
-    color: #fff;
+    color: #fff !important;
+    
 }
 
 footer h6{
@@ -16,7 +17,7 @@ footer h6{
 
 footer ul{
     list-style: none;
-    color: #fff;
+    color: #fff !important;
     margin: 10px 0;
     padding-left: 50px;
     font-weight: 500; 
@@ -26,12 +27,27 @@ footer ul li{
     margin: 10px 0;
 }
 
+footer ul li a:link {
+    color: #fff;
+ }
+ 
+ footer ul li a:visited {
+     color: #fff;
+ }
+ 
+ footer ul li a:hover {
+     color: #fff;
+ }
+ 
+ footer ul li a:active {
+     color: #fff;
+ }
+
 .chamada-app-botoes{
     padding: 45px 100px;
 }
 
 .redes button{
-    margin: 106px 8px;
     background-color: #6b617d;
     width: 50px;
     height: 50px;
@@ -39,8 +55,9 @@ footer ul li{
     border: none;
     color: #fff;
     font-size: 30px;
+    margin: 5px;
 }
 
 .redes .fab{
-    display: block
+    display: block;
 }   

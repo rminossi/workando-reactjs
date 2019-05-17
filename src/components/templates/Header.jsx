@@ -7,10 +7,21 @@ class Header extends Component {
 
         return(
         <div>
-          <nav className="navbar navbar-expand-lg">
-            <div className="col-2"><h3 className="brand">Workando</h3></div>
-            <div className="col-6"><i className="fas fa-search"></i><input className='pesquisa' type='text' placeholder='Pesquisar...'></input></div>
-            <div className="col-4"><p className='saudacao'>Olá, <span>Carla</span><img className='img-perfil' src={require ('../../../public/imgs/carla.jpg')} alt=""/> <i className="fas fa-bell"></i><i className="fas fa-bars"></i></p></div>
+          <nav className="navbar navbar-expand-md">
+            <a className="brand">Workando</a>
+            <div className="collapse navbar-collapse">
+            <i className="fas fa-search"></i><input className='pesquisa' type='text' placeholder='Pesquisar...'></input>
+            <div className='saudacao ml-auto'>Olá, <span>Carla</span>
+              <img className='img-perfil' src={require ('../../../public/imgs/carla.jpg')} alt=""/>
+              <a href="#"><i className="fas fa-bell"></i></a>
+              <a href="#"><i className="fas fa-bars"></i></a>
+            </div>
+            </div>
+            <div className="d-md-none navbar-mobile">
+              <a href="#"><i className="fas fa-search"></i></a>
+              <a href="#"><i className="fas fa-bell"></i></a>
+              <a href="#"><i className="fas fa-bars"></i></a>
+            </div>
           </nav>
         </div>        
         );

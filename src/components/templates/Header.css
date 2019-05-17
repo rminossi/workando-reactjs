@@ -2,16 +2,20 @@
     background-color: #fff;
     height: 70px;
     width: 100%;
-    padding: 0px 50px 0 70px;
+    padding: 0px 0px 0 70px;
 }
 
 .brand{
-    color: #604f68;
+    color: #604f68 !important;
     font-weight: 900 bold !important;
     font-variant: small-caps;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+}
+
+.navbar-collapse{
+    box-sizing: unset;
 }
 
 .pesquisa{
@@ -32,8 +36,7 @@
 .saudacao{
     color: #91bdc9;
     font-size: 20px;
-    padding: 15px 0 0 !important;
-    margin-left: 90px;
+    padding: 15px 50px 0 0 !important;
 }
 
 span{
@@ -41,11 +44,13 @@ span{
 }
 
 .fa-bell{
+    color: #91bdc9;
     margin-top: 10px;
     font-size: 1.2em;
 }
 
 .fa-bars{
+    color: #91bdc9;
     margin: 0 0 0 20px;
     font-size: 1.2em;
 }
@@ -55,4 +60,16 @@ span{
    height: 45px;
    border-radius: 50%;
    margin: 0 15px;
+}
+
+.navbar-mobile{
+    font-size: 1.4em !important;
+    padding-right: 25px;
+    display: inline;
+}
+
+.navbar-mobile .fas, .navbar-mobile .fa{
+    font-size: 1.2em !important;
+    padding: 0 !important;
+    margin: 0 10px !important;
 }

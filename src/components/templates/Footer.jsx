@@ -7,30 +7,30 @@ class Footer extends Component{
         <div>
             <footer>
               <div className="row">
+                <div className="col-lg-3 col-12 text-center">
+                  <h4 className="brand pl-0 pt-4 pt-lg-5 mt-lg-5 text-ippercase" >Workando</h4>
+                </div>                                                                              
                 <div className="col-3">
-                  <h4 className="brand" >Workando</h4>
-                </div>
-                <div className="col-3">
-                  <h6>Empresa</h6>
+                  <h6 className="pt-3 pt-lg-5 mt-lg-5">Empresa</h6>
                   <ul>
-                    <li>Sobre</li>
-                    <li>Como Funciona</li>
-                    <li>Categorias</li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Como funciona</a></li>
+                    <li><a href="#">Categorias</a></li>
                   </ul>
                 </div>
                 <div className="col-3">
-                  <h6>Contato</h6>
+                  <h6 className="pt-3 pt-lg-5 mt-lg-5">Contato</h6>
                   <ul>
-                    <li>Ajuda</li>
-                    <li>Contatos</li>
-                    <li>Aplicativo Móvel</li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Aplicativo Móvel</a></li>
                   </ul>
                 </div>
-                <div className="col-3">
-                  <div className="row redes">
-                    <button><i class="fab fa-facebook-f"></i></button>
-                    <button><i class="fab fa-instagram"></i></button>
-                    <button><i class="fab fa-google-plus-g"></i></button>
+                <div className="col-3 pt-lg-5 mt-lg-4 ml-5 ml-lg-0 pl-5 pl-lg-0">
+                  <div className="row-fluid redes pt-3">
+                    <button className="btn"><i class="fab fa-facebook-f"></i></button>
+                    <button className="btn"><i class="fab fa-instagram"></i></button>
+                    <button className="btn"><i class="fab fa-google-plus-g"></i></button>
                   </div>
                 </div>
                 </div>

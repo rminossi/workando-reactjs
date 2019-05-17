@@ -8,7 +8,7 @@ import Footer from './components/templates/Footer'
 class App extends Component {
   render() {
     return (
-      <div className="content">
+      <div className="container-fluid">
         <Header />
         <Pedidos />
         <Chamada />

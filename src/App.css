@@ -2,8 +2,6 @@ body{
   background-color: #f1f1f1;
 }
 
-.content{
-  background-color: #f1f1f1;
-  margin: 10px 40px;
-  box-shadow:-1px 0px 2px 1px #c7c6c6 ;
+.container-fluid{
+  padding: 0;
 }
