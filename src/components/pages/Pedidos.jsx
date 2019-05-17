@@ -26,7 +26,7 @@ class Propostas extends Component{
             <p className="d-md-block d-none">Publicado há {this.props.tempo}</p>
             <p className='status-projeto d-md-block d-none'><span>Status</span>{this.props.status}</p>
           </div>
-          <div className="col-4 col-md-3 acoes-projeto ml-md-3 d-inline pl-0 ml-auto">
+          <div className="col-4 col-md-3 acoes-projeto ml-3 d-inline pl-0 ml-md-auto">
             <button onClick={this.exibePropostas}><i className="fa fa-eye"></i></button>
             <button><i class="far fa-window-close"></i></button>
             <button><i class="fas fa-edit"></i></button>
