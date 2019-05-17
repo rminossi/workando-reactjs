@@ -7,7 +7,7 @@ class Header extends Component {
 
         return(
         <div>
-          <nav className="navbar navbar-expand-md pl-4">
+          <nav className="navbar navbar-expand-md pl-2 pl-md-4">
             <a href="#" className="brand col-6 col-md-2">Workando</a>
             <div className="collapse navbar-collapse">
             <i className="fas fa-search"></i><input className='pesquisa' type='text' placeholder='Pesquisar...'></input>
