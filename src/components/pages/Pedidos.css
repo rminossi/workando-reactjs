@@ -1,5 +1,7 @@
-.meus-pedidos{
-    margin: 30px 110px 40px;
+@media(min-width: 800){
+    .meus-pedidos{
+        padding: 30px 60px 40px 60px !important;
+    }
 }
 
 .rota{

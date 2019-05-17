@@ -6,7 +6,7 @@ class Chamada extends Component{
     return(
       <div className="row chamada-app">
         <div className='col-8 chamada-app-texto pl-0 pl-md-5 pt-lg-5 pt-5'>
-            <p className='chamada pl-4'>Baixe o aplicativo para dispositivos móveis</p>
+            <p className='chamada pl-4 pb-3'>Baixe o aplicativo para dispositivos móveis</p>
         </div>
         <div className='col-3 px-0 pt-lg-5 pt-3 ml-0 ml-md-auto chamada-app-botoes'>
             <button><i class="fab fa-android"></i></button>
