@@ -19,14 +19,14 @@ class Propostas extends Component{
     
     return(
       <div>
-        <div className='row header-projeto'>
+        <div className='row header-projeto mb-3'>
           <img className='img-projeto d-md-block d-none' src={require('../../../public/imgs/'+this.props.img+'.png')} alt=""/>
         <div className="col-12 text-center text-md-left mb-md-3 mb-0 pl-0 col-md-5 md-3 ml-0 ml-md-4 descricao">
             <h4>{this.props.titulo}</h4>
             <p className="d-md-block d-none">Publicado há {this.props.tempo}</p>
             <p className='status-projeto d-md-block d-none'><span>Status</span>{this.props.status}</p>
           </div>
-          <div className="col-12 mt-0 mt-md-5 text-center col-md-3 acoes-projeto ml-0 ml-md-4 d-inline pl-0 ">
+          <div className="col-12 mt-0 mt-md-5 text-center col-md-3 acoes-projeto ml-0 ml-md-auto d-inline pl-0 ">
             <button onClick={this.exibePropostas}><i className="fa fa-eye"></i></button>
             <button><i class="far fa-window-close"></i></button>
             <button><i class="fas fa-edit"></i></button>
