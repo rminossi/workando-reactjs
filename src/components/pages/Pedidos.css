@@ -159,10 +159,16 @@ select {
     }
 }
 
-@media (max-width: 900px){
+@media (min-width: 720px){
     .proposta{
         min-width: 45% !important;
-        max-width: 45% !important;
+    }
+}
+
+@media (min-width: 900px){
+    .proposta{
+        min-width: 30% !important;
+        max-width: 30% !important;
     }
 }
 
